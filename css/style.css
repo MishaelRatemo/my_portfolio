@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'Russo One', sans-serif;
+    width: 100%;
+}
+
+header{
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+   
+}
+.logo{
+    font-family: 'Rock Salt', cursive;
+    font-size: 2vw;
+    font-weight: 800;   
+}
+
+.teal-color{
+    position: relative;
+    background-color: teal;
+    margin-bottom: 4%;
+}
+.header-container{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+#ellipse {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 40vh;
+    width: 30%;
+    background-color: #b3446c;
+    border-top-left-radius: 100% 80%;    
+}
+#headright img{
+    /* width: 120%; */
+    z-index: 0;
+    position: relative;
+    left: 40%;
+}
+.header-container .h1{
+    position: relative;
+    top: 15%;
+    font-size: 8vw;
+    font-weight: 900;
+    font-family:  'Russo One', sans-serif;;
+}
+.colorless{
+    display: flex;
+}
+.experience{
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+.experience h1 span{
+    font-size: 8vw;
+}
+.experience h1 {
+    color: teal;
+    text-align: center;
+}
+.description{
+    color: teal;
+    
+}
+.description .row .col-3{
+    /* background-color: thistle; */
+    margin-right: 3%;
+    padding: 2%;
+    box-shadow: 13px 13px 15px #b3446c ;
+    text-align: center;
+    border-radius: 10px;
+}
+.description .row .col-3:hover{
+    background-color: teal;
+    color: #fff;
+    transition: all 1.5s;
+
+}
+
+
+
+@media (max-width:480px){
+    .logo{
+        font-size: 5vw;          
+    }
+    #ellipse {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        width: 70%;
+        background-color: #b3446c;
+        border-top-left-radius: 100% 100%;    
+    }
+
+}

@@ -4,50 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>Mishael's Portfolio</title>
 </head>
 <body>
     <!-- ******Head starts here******** -->
     <header>
-        <div class="teal-color">
-            <nav>
-                <h2 id="logo">Mishael</h2>
-                <ul id="menu">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact-me">Contact</a></li>
-                </ul>
+        <div class="container-fluid  teal-color">
+            <nav class="navbar sticky-top navbar-light ">
+                <div class="container-fluid">
+                    <span class="navbar-brand mb-0 h1 text-white logo">Mismora</span>
+                </div>                                          
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mr-auto" id="menu">
+                        <li class="nav-item"><a href="#about">About</a></li>
+                        <li class="nav-item"><a href="#projects">Projects</a></li>
+                        <li class="nav-item"><a href="#contact-me">Contact</a></li>
+                    </ul>
+                </div>
             </nav>
             <div class="header-container">
                 <div id="headleft">
-                    <h1>Mishael <br> Ratemo</h1>
+                    <h1 class="h1 text-white fo">Mishael <br> Ratemo</h1>
                 </div>
                 <div id="headright">
                     <div id="ellipse"></div>
-                    <img src="images/Mishael-removebg-preview.png" alt="Image of person">
+                    <img class="img-fluid" src="images/Mishael-removebg-preview.png" alt="Image of person">
                 </div>
             </div>
         </div>
-        <div class="colorless">
-            <div class="experience">
-                 <h1>2+ <br> <span>Years <br> Experience <br> Working</span></h1>
+        <div class="container-fluid  colorless">
+            <div class="col-4 experience">
+                 <h1><span>2+</span> <br> Years <br> Experience <br> Working</h1>
             </div>
-            <div class="description">
-                <h2>IT Personnel, Data cleaning nad specialized software Developer</h2>
-                <section>
-                    <div class="column-head IT">
-                        <img src="images/it_icon.png" alt="IT image" class="field-image">
+            <div class="container-fluid description">
+                <h2>IT Personnel, Data cleaning and specialized software Developer</h2>
+                <section class="row">
+                    <div class="col-3">
+                        <img class="img-fluid" src="images/it_icon.png" alt="IT image" class="field-image">
                         <p class="field-descrip">IT Personnel</p>
                         <p class="learn-more">Learn <span class="more">More</span> </p>
                     </div>
-                    <div class="column-head Data">
-                        <img src="images/data-icon.png" alt="data image" class="field-image">
+                    <div class="col-3">
+                        <img class="img-fluid" src="images/data-icon.png" alt="data image" class="field-image">
                         <p class="field-descrip">Data Cleaning </p>
                         <p class="learn-more">Learn <span class="more">More</span> </p>
                     </div>
-                    <div class="column-head Softdev">
-                        <img src="images/software-devp.png" alt="data image" class="field-image">
+                    <div class="col-3">
+                        <img class="img-fluid" src="images/software-devp.png" alt="data image" class="field-image">
                         <p class="field-descrip">Software Development</p>
                         <p class="learn-more">Learn <span class="more">More</span> </p>
                     </div>
@@ -101,49 +110,49 @@
                 <h2>Aready in use programming languages</h2>
                 <div class="prog-languages">
                     <div class="p-columns">
-                        <img src="images/HTML.png" alt="html image">
+                        <img class="img-fluid" src="images/HTML.png" alt="html image">
                     </div>
                     <div class="p-columns">
-                        <img src="images/git.png" alt="git image">
+                        <img class="img-fluid" src="images/git.png" alt="git image">
                     </div>
                     <div class="p-columns">
-                        <img src="images/CSS.png" alt="Css Image">
+                        <img class="img-fluid" src="/images/CS.png" alt="Css Image">
                     </div>
                     <div class="p-columns">
-                        <img src="images/bootstrap.png" alt="Bootstrao image">
+                        <img class="img-fluid" src="images/bootstrap.png" alt="Bootstrao image">
                     </div>
                     <div class="p-columns">
-                        <img src="images/php.png" alt="php image">
+                        <img class="img-fluid" src="images/php.png" alt="php image">
                     </div>
                     <div class="p-columns">
-                        <img src="images/mySQL.png" alt="SQL image">
+                        <img class="img-fluid" src="images/mySQL.png" alt="SQL image">
                     </div>
                 </div>
                 <div class="p-learning">
                     <h2>Learning in progress</h2>
                     <div class="p-learn-cols">
-                        <img src="images/python.png" alt="pythom icon">
-                        <img src="images/nodejs.png" alt=" nodejs icon">
-                        <img src="images/Angular.png" alt="angular icon">
-                        <img src="images/JS.png" alt="javascript icon">
-                        <img src="/images/django.png" alt="djnango icon">
+                        <img class="img-fluid" src="images/ython.png" alt="pythom icon">
+                        <img class="img-fluid" src="images/nodejs.png" alt=" nodejs icon">
+                        <img class="img-fluid" src="images/Angular.png" alt="angular icon">
+                        <img class="img-fluid" src="images/JS.png" alt="javascript icon">
+                        <img class="img-fluid" src="/images/django.png" alt="djnango icon">
                     </div>
                 </div> 
                 <div class="other-skills">
                     <h2 class="underline"> Other skills</h2>
                     <div class="others">
-                        <img src="images/arduino.jpeg" alt="arduino image">
-                        <img src="images/figma.png" alt=" figma icon">
-                        <img src="images/office.png" alt="Ms office image">
+                        <img class="img-fluid" src="images/arduino.jpeg" alt="arduino image">
+                        <img class="img-fluid" src="images/igma.png" alt=" figma icon">
+                        <img class="img-fluid" src="images/office.png" alt="Ms office image">
                     </div>
                 </div>
                 <div class="hobbies">
                     <h2 class="underline">Hobbies and Interests</h2>
                     <div class="others">
-                        <img src="images/music.jpeg" alt=" headphones image">
-                        <img src="images/cooking.jpeg" alt="cooking image">
-                        <img src="images/travelling.jpeg" alt="road and car image">
-                        <img src="images/Nature.jpeg" alt="man in forest image">
+                        <img class="img-fluid" src="images/music.jpeg" alt=" headphones image">
+                        <img class="img-fluid" src="images/cooking.jpeg" alt="cooking image">
+                        <img class="img-fluid" src="images/travelling.jpeg" alt="road and car image">
+                        <img class="img-fluid" src="images/Nature.jpeg" alt="man in forest image">
                     </div>
                 </div>
             </div>
@@ -178,10 +187,10 @@
         <div class="tag"> Contact Me</div>
         <h2>Get in touch with me</h2>
         <form>        
-            <input type="text" placeholder="Enter Your Full Name" required>
-            <input type="email" placeholder="Enter Your Email Address" required>
-            <input type="tel" placeholder="Enter Your Phone Number">
-            <textarea name="" id="" cols="40" rows="10" placeholder=" Your message goes here" required></textarea>
+            <input class="form-control" type="text" placeholder="Enter Your Full Name" required>
+            <input class="form-control" type="email" placeholder="Enter Your Email Address" required>
+            <input class="form-control" type="tel" placeholder="Enter Your Phone Number">
+            <textarea class=" form-control" name="" id="" cols="40" rows="10" placeholder=" Your message goes here" required></textarea>
             <button>Send</button>
         </form>
     </section>
