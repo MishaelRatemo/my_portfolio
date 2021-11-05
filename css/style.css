@@ -13,6 +13,7 @@ header{
     box-sizing: border-box;
     margin: 0;
     width: 100%;
+    margin-bottom: 6%;
    
 }
 .logo{
@@ -86,8 +87,28 @@ header{
 .description .row .col-3:hover{
     background-color: teal;
     color: #fff;
-    transition: all 1.5s;
+    transition: all 1.5cls;
 
+}
+.more{
+    color: #b3446c;
+}
+
+
+#about{
+    border-top: 8px solid teal;
+}
+
+.tag{
+    height: 10vh;
+    width: 20vw;
+    background-color: #b3446c;
+    text-align: center;
+    border-bottom-left-radius: 50% 100% ;
+    border-bottom-right-radius: 50% 100%;
+    margin: auto;
+    padding: 2.5%;
+    color: #fff;
 }
 
 
