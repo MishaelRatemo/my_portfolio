@@ -178,6 +178,8 @@ header{
 .p-learning .p-learn-cols img{
     transition: transform 0.4s ease;
     opacity: .5;
+    box-shadow: 10px 10px 12px #b3446c;
+    border-radius: 5px;
 }
 .p-learning .p-learn-cols img:hover{
     transform: scale(1.5);
