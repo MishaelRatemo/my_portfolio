@@ -13,8 +13,7 @@ header{
     box-sizing: border-box;
     margin: 0;
     width: 100%;
-    margin-bottom: 6%;
-   
+    margin-bottom: 6%;   
 }
 .logo{
     font-family: 'Rock Salt', cursive;
@@ -32,9 +31,9 @@ header{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
-    
+    overflow: hidden;    
 }
+
 #ellipse {
     position: absolute;
     right: 0;
@@ -87,13 +86,11 @@ header{
 .description .row .col-3:hover{
     background-color: teal;
     color: #fff;
-    transition: all 1.5cls;
-
+    transition: all 1.5s;
 }
 .more{
     color: #b3446c;
 }
-
 
 #about{
     border-top: 8px solid teal;
@@ -109,6 +106,48 @@ header{
     margin: auto;
     padding: 2.5%;
     color: #fff;
+    font-size: 1.7em;
+}
+#about > p{
+    color: teal;
+    width: 65%;
+    margin: auto;
+    font-size: 24px;
+    text-align: center;
+    padding: 5% 1% 2%;
+}
+.background{
+    /* height: 30vh; */
+}
+.head-leads{
+    color: #b3446c;
+    border: 3px solid teal;
+    border-radius: 15px 0 15px 0;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+}
+.abt-cont1 .d-flex {
+    margin: auto;
+    margin:4% 0;
+}
+.lead-text{
+    background-color: teal;
+    color: #fff;
+    text-align: center;
+    
+}
+.lead-text h3{
+    position: relative;
+    top: 40%;
+    bottom: 20%;
+}
+
+.backgrnd-cols{
+    border-right: 3px solid teal;
+    margin-right: 2%;
+    color: #b3446c;
+    font-size: 24px;
 }
 
 
