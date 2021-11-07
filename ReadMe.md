@@ -32,7 +32,7 @@
  vi. My projects
 
  ## Project design
- Click [here](../images/Project_design_Mishael_portfolio.png) to view design
+ Click [here](https://drive.google.com/drive/u/0/folders/11mJ636Kw1MdFlZZ_PylD7GmSss6znixu) to view design
 
  ## Live Demo
  click [here]() to view 
