@@ -195,6 +195,16 @@ header{
     transform: scale(1.2);
     opacity: .5;
 }
+.other-skills, .p-learning, .hobbies >h2{
+    text-align: center;
+    color: teal;
+}
+.other-skills, .p-learning, .hobbies{
+    margin-bottom: 4%;
+}
+.underline{
+   text-decoration: 8px underline #b3446c;
+}
 
 
 @media (max-width:480px){
