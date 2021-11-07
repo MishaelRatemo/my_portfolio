@@ -35,7 +35,7 @@
  Click [here](https://drive.google.com/drive/u/0/folders/1sdNwoe7nFj7nt_oSLpSYFr0JqSWN03ng) to view design
 
  ## Live Demo
- click [here]() to view 
+ click [here](https://mishaelratemo.github.io/my_portfolio/) to view 
 
 
  ## Technologies Used
