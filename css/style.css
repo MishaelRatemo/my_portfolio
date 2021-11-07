@@ -175,6 +175,14 @@ header{
     visibility: visible;
     opacity: 1;
 }
+.p-learning .p-learn-cols img{
+    transition: transform 0.4s ease;
+    opacity: .5;
+}
+.p-learning .p-learn-cols img:hover{
+    transform: scale(1.5);
+    opacity: 1;
+}
 
 
 @media (max-width:480px){
