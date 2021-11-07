@@ -116,9 +116,7 @@ header{
     text-align: center;
     padding: 5% 1% 2%;
 }
-.background{
-    /* height: 30vh; */
-}
+
 .head-leads{
     color: #b3446c;
     border: 3px solid teal;
@@ -150,16 +148,32 @@ header{
     font-size: 24px;
 }
 .prog-languages .d-flex .p-columns{
-    box-shadow: 5px 5px 10px teal ;
+    box-shadow: 5px 5px 10px #b3446c ;
     border-radius: 5px;
     margin:10px ;
-
-    padding: 2%;
+    padding:2%;
+    position: relative;
+    word-wrap: break-word;
+    
 } 
 .prog-languages .d-flex .p-columns:hover{
     cursor: pointer;
     transition: 1s all;
-    background-color: #b3446c;
+    background-color: teal;
+}
+
+.img-description{
+    text-align: center;
+    visibility: hidden;
+    color:#fff;
+    position: absolute;
+    top: 20%; 
+    left: -1px;  
+    font-size: 1.8em;
+}
+.prog-languages .d-flex .p-columns:hover .img-description{
+    visibility: visible;
+    opacity: 1;
 }
 
 
