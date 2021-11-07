@@ -205,7 +205,38 @@ header{
 .underline{
    text-decoration: 8px underline #b3446c;
 }
+/* Projects Section styling */
+#projects, #contact-me {
+    border-top: 8px solid teal;
+    /* margin-bottom: 5%; */
+    margin: auto;
+}
+#projects{
+    margin-bottom: 4%;
+}
+#projects .proj-cols {
+    word-wrap: break-word;
+}
+#projects .projs .proj-cols{
+    word-wrap: break-word;
+    border-left: 30px  solid #b3446c;
+    border-top: 3px  solid #b3446c;
+    border-right: 3px  solid #b3446c;
+    border-bottom: 3px  solid #b3446c;
+    border-radius: 20px 0 0 20px;
+    margin: 3px 13px 3px 0;
+    padding: 2px;
 
+}
+.proj-cols button{
+    width: 50%;
+    margin: auto;
+    background-color: teal;
+    color: #fff;
+    position: relative;
+    left: 18%;
+
+}
 
 @media (max-width:480px){
     .logo{
