@@ -149,18 +149,17 @@ header{
     color: #b3446c;
     font-size: 24px;
 }
-.prog-languages .d-flex{
-    flex-wrap: wrap;
-}
 .prog-languages .d-flex .p-columns{
-    width: 25%;
+    box-shadow: 5px 5px 10px teal ;
+    border-radius: 5px;
     margin:10px ;
-    background-color: #b3446c;
+
     padding: 2%;
-}
+} 
 .prog-languages .d-flex .p-columns:hover{
     cursor: pointer;
     transition: 1s all;
+    background-color: #b3446c;
 }
 
 
