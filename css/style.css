@@ -226,7 +226,7 @@ header{
     border-radius: 20px 0 0 20px;
     margin: 3px 13px 3px 0;
     padding: 2px;
-
+    color: teal;
 }
 .proj-cols button{
     width: 50%;
@@ -235,8 +235,49 @@ header{
     color: #fff;
     position: relative;
     left: 18%;
-
 }
+/*  Contact me section */
+#contact-me{
+    margin-bottom: 4%;
+}
+#contact-me h2{
+    text-align: center;
+    color: teal;
+}
+#contact-me form{
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+#contact-me form input,#contact-me form textarea{
+    border-left: 5px solid teal;
+    border-bottom: 5px solid teal;
+    border-right: 5px solid teal;
+    outline: none;
+    margin-bottom: 2%;
+    padding: 2%;
+    color: #b3446c;
+}
+#contact-me form textarea:focus, #contact-me form input:focus{
+    box-shadow:8px 8px 8px #b3446c;
+}
+#contact-me form button{
+    width: 40%;
+    color:teal;
+    position: relative;
+    left: 25%;
+    border: none;
+    padding: 3%;
+    margin: auto;
+    cursor: pointer;
+    outline: teal solid 3px;
+    transition: .6s ease-in-out;
+}
+#contact-me form button:hover{
+    background-color: teal;
+    color: #fff;
+}
+
 /*  footer section */
 footer{
     width: 100%;
@@ -257,7 +298,7 @@ footer{
 .wave-mid{
     position: absolute;
     left: 35%;
-    height: 90%;
+    height: 100%;
     width: 30%;
     margin: auto;
     border-top-right-radius:50% 100% ;
