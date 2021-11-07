@@ -21,7 +21,7 @@
 
  i.  Education backgound,
  
- ii. My working experienc
+ ii. My working experience
  
  iii. My skills
 
