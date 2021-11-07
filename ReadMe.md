@@ -32,7 +32,7 @@
  vi. My projects
 
  ## Project design
- Click [here](images/Project_design_Mishael_portfolio.png) to view design
+ Click [here](../images/Project_design_Mishael_portfolio.png) to view design
 
  ## Live Demo
  click [here]() to view 
