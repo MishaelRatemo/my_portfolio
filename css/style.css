@@ -149,7 +149,11 @@ header{
     color: #b3446c;
     font-size: 24px;
 }
+.prog-languages .d-flex .p-columns{
+    width: 30%;
+    
 
+}
 
 
 @media (max-width:480px){
