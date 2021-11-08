@@ -12,12 +12,9 @@ body{
     background-color: teal;
     
 }
-#menu{
-    float: right;
-}
+
 .NavBar #menu li{
     position: relative;
-    left: 50%;
     margin-right: 5%;
     transition: .5s ease-in-out;
 
@@ -112,8 +109,9 @@ header{
     color: #fff;
     transition: all 1.5s;
 }
-.more{
+.more a{
     color: #b3446c;
+    cursor: pointer;
 }
 
 #about{
@@ -180,6 +178,10 @@ header{
     word-wrap: break-word;
     
 } 
+.abt-cont2 h2{
+    color: teal;
+    text-align: center;
+}
 .prog-languages .d-flex .p-columns:hover{
     cursor: pointer;
     transition: 1s all;
@@ -249,15 +251,16 @@ header{
     word-wrap: break-word;
     border-left: 30px  solid #b3446c;
     border-top: 3px  solid #b3446c;
-    border-right: 3px  solid #b3446c;
+    border-right: 30px  solid #b3446c;
     border-bottom: 3px  solid #b3446c;
-    border-radius: 20px 0 0 20px;
+    border-radius: 20px 20px;
     margin: 3px 13px 3px 0;
     padding: 2px;
     color: teal;
 }
 .proj-cols button{
     width: 50%;
+    display:inline-block;
     margin: auto;
     background-color: teal;
     color: #fff;
@@ -346,7 +349,7 @@ footer{
     right: 0;
 }
 
-@media (max-width:480px){
+@media (max-width:520px){
     .logo{
         font-size: 5vw;          
     }
@@ -359,5 +362,95 @@ footer{
         background-color: #b3446c;
         border-top-left-radius: 100% 100%;    
     }
+    header{
+        margin-bottom: 10%;
+    }
+    header .colorless{
+        display: flex;
+        flex-direction: column;
+    }
+    header .experience, header .col-4 {
+        width: 100%;
+        text-align: center;
+        flex: 100%;
+        max-width: 100%;
+        margin-bottom: 10%;
+    }
+    header .description h2{
+        font-size: 24px;
+        text-align: center;
+    }
+    header .row{
+        display: flex;
+        flex-direction: column;
+    }
+    header .row .col-3{
+        margin: auto;
+        max-width: 95%;
+        margin-bottom: 8%;
+    }
+    #about {
+        margin-bottom: 10%;
+    }
+    #about .tag{
+        width: 30vw;
+        padding: 2%;
+        font-size: 1.5em
+    }
+    #about >p{
+        width: 98%;
+        font-size: 20px;
+    }
+    .head-leads{
+        width: 50%;
+        font-size: 2em;
+     }
+    #about .abt-cont1 .d-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    #about .backgrnd-cols{
+        margin-right: auto;
+        border-left: 3px solid teal;
+        border-bottom: 3px solid teal;
+    }
+    .abt-cont2 h2{
+        font-size: 25px;
+    }
+    .prog-languages .d-flex .p-columns{
+        width: 100%;
+        justify-content: none;
+        
+    }
+    
+    .prog-languages {
+        margin-bottom: 8%;
+    }
+    .p-learn-cols{
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+    }
+    .p-learning .p-learn-cols img:hover{
+        transform: scale(1.05);
+    }
+    .p-learning{
+        margin-bottom: 10%;
+    }
+    .others img:hover{
+        transform: scale(1.03);
+    }
+    .other-skills{
+        margin-bottom: 10%;
+    }
+    .hobbies .others img{
+        width: 100%;
+        align-items: center;
+        margin-bottom: 5%; 
+    }
+    #projects .projs{
+        flex-direction: column;
+    }
+
 
 }
