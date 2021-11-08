@@ -231,20 +231,17 @@ header{
 .underline{
    text-decoration: 8px underline #b3446c;
 }
-.hobby_interests {
-    word-wrap:break-word;
-    width: 25%;
-    /* background-color: teal; */
-    box-shadow: 10px 10px 12px #b3446c;
-    margin-right:.3%;
-}
-.hobby_interests .music{
-    background-image: url(./images/music.jpeg);
-}
-.hob-int-descrip{
-    /* word-wrap: break-word; */
+
+.card-img-overlay:hover{
+    background: rgba(0, 128, 128, .4)  ;
+    transition: 0.3s;
 }
 
+.card:hover .card-img{
+    transform: scale(1.07);
+    transition: .6s;
+
+}
 /* Projects Section styling */
 #projects, #contact-me {
     border-top: 8px solid teal;
