@@ -231,6 +231,20 @@ header{
 .underline{
    text-decoration: 8px underline #b3446c;
 }
+.hobby_interests {
+    word-wrap:break-word;
+    width: 25%;
+    /* background-color: teal; */
+    box-shadow: 10px 10px 12px #b3446c;
+    margin-right:.3%;
+}
+.hobby_interests .music{
+    background-image: url(./images/music.jpeg);
+}
+.hob-int-descrip{
+    /* word-wrap: break-word; */
+}
+
 /* Projects Section styling */
 #projects, #contact-me {
     border-top: 8px solid teal;
